@@ -575,7 +575,7 @@
       currentLang = lang;
       // 質問数に合わせた配列を再初期化
       selectedAnswers = Array(data[currentLang].questions.length).fill(null);
-      submissionAttempted = false;
+      submissionAttempted = true;
       // 画面上のテキスト（見出し・導入文・ボタン）を更新
       renderHeaderAndIntro();
       // 質問文エリアを再描画
